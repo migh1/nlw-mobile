@@ -113,7 +113,7 @@ const TeacherList = () => {
                       setTime(currentDate);
                     }}
                     mode='time'
-                    display='default'
+                    display='spinner'
                   />
                 )}
                 <TextInput
@@ -122,13 +122,6 @@ const TeacherList = () => {
                   onFocus={() => setShow(true)}
                   placeholder='__:__'
                 />
-                {/* <TextInput
-                  style={styles.input}
-                  placeholder='Qual o horário?'
-                  placeholderTextColor='#c1bccc'
-                  value={time}
-                  onChangeText={(text) => setTime(text)}
-                /> */}
               </View>
             </View>
 
